@@ -6,7 +6,7 @@ export const Header = () => {
     <S.Wrapper>
       <S.ContainerWrapper>
         <S.Navbar>
-          <S.Logo><h2>Bloger</h2></S.Logo>
+          <S.Logo>Bloger</S.Logo>
           <S.Navbutton>
             <Button title={'Login'} />
             <Button title={'Sing-up'} />
@@ -14,10 +14,10 @@ export const Header = () => {
         </S.Navbar>
         <S.Content>
           <S.Title>A Modern publishing platform</S.Title>
-          <S.Description>Grow your audience and build your online brand</S.Description>
+            <S.Description>Grow your audience and build your online brand</S.Description>
           <S.Navbutton>
-          <Button title={'Start for Free'} />
-          <Button title={'Learn More'} />
+            <Button title={'Start for Free'} />
+            <Button title={'Learn More'} />
           </S.Navbutton>
         </S.Content>
       </S.ContainerWrapper>

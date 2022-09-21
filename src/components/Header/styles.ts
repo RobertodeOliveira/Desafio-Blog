@@ -12,7 +12,7 @@ export const Navbar = styled.div`
   justify-content: space-between;
 `
 export const Navbutton = styled.div`
-display: flex;
+  display: flex;
 `
 
 export const Wrapper = styled.div`
@@ -29,24 +29,23 @@ export const Wrapper = styled.div`
 `
 
 export const Content = styled.div`
-display: flex;
-flex-direction: column;
-padding-top: 25px;
-align-items: center;
-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  align-items: center;
+  width: 100%;
 `
 export const Title = styled.h1`
   font-weight: 500;
   color: white;
 `
 export const Description = styled.p`
-color:hsl(0, 0%, 100%);
-/* font-family: 'Ubunto'; */
-font-size: 18px;
-padding-bottom: 10px;
+  color:hsl(0, 0%, 100%);
+  /* font-family: 'Ubunto'; */
+  font-size: 18px;
+  padding-bottom: 10px;
 `
-export const Logo = styled.p`
+export const Logo = styled.h2`
   font-size: 22px;
   color: white;
-
 `

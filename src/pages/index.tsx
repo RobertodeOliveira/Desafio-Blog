@@ -9,6 +9,7 @@ export default function PageHome() {
     <Header />
       {/* <DropdownMenu selected={selected} setSelected={setSelected} /> */}
       {/* <Desingned /> */}
+      <Desingned />
     </>
   )
 }
